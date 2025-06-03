@@ -1,0 +1,467 @@
+$schema: schema.json
+Options:
+  bidscoin:
+    version: 4.6.1
+    subprefix: sub-
+    sesprefix: ses-
+    bidsignore:
+    - extra_data/
+    - sub-*_ct.*
+    unknowntypes:
+    - extra_data
+    ignoretypes:
+    - exclude
+    anon: y
+    unzip: null
+  plugins:
+    dcm2niix2bids:
+      command: dcm2niix
+      args: -b y -z y -i n -l n
+      meta:
+      - .json
+      - .tsv
+      - .tsv.gz
+      fallback: y
+    events2bids:
+      extraInfo: 7
+      meta:
+      - .json
+DICOM:
+  participant:
+    participant_id:
+      value: <<filepath:/raw/sub-(.*?)/>>
+      meta:
+        Description: The unique participant identifier of the form sub-<label>, matching
+          a participant entity found in the dataset
+    session_id:
+      value: <<filepath:/raw/sub-.*?/ses-(.*?)/>>
+      meta:
+        Description: The session identifier of the form ses-<label>, matching a session
+          found in the dataset
+    age:
+      value: <<PatientAge>>
+      meta:
+        Description: Age of the participant
+        Units: year
+    sex:
+      value: <<PatientSex>>
+      meta:
+        Description: Sex of the participant
+        Levels:
+          M: male
+          F: female
+          O: other
+    height:
+      value: <<PatientSize>>
+      meta:
+        Description: Height of the participant
+        Units: meter
+    weight:
+      value: <<PatientWeight>>
+      meta:
+        Description: Weight of the participant
+        Units: kilogram
+  anat:
+  - provenance: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_FLAIR_SAG_3D\Image
+      (0001).dcm
+    properties:
+      filepath: ''
+      filename: ''
+      filesize: ''
+      nrfiles: null
+    attributes:
+      Modality: MR
+      ProtocolName: ''
+      SeriesDescription: FLAIR_SAG_3D
+      ImageType: '[''ORIGINAL'', ''PRIMARY'', ''MPR'']'
+      SequenceName: ''
+      PulseSequenceName: ''
+      SequenceVariant: ''
+      ScanningSequence: ''
+      EchoPulseSequence: ''
+      MRAcquisitionType: ''
+      SliceThickness: '1'
+      FlipAngle: ''
+      EchoNumbers: ''
+      EchoTime: ''
+      EffectiveEchoTime: ''
+      RepetitionTime: ''
+      InPlanePhaseEncodingDirection: ''
+    bids:
+      task: null
+      acq: ''
+      ce: null
+      rec: null
+      run: <<>>
+      echo: null
+      part:
+      - ''
+      - mag
+      - phase
+      - real
+      - imag
+      - 0
+      chunk: null
+      suffix: FLAIR
+    meta: {}
+    events: {}
+  - provenance: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_SAG_3D_T1_ACCELERATED\Image
+      (0001).dcm
+    properties:
+      filepath: null
+      filename: null
+      filesize: null
+      nrfiles: null
+    attributes:
+      Modality: MR
+      ProtocolName: ''
+      SeriesDescription: SAG_3D_T1_ACCELERATED
+      ImageType: '[''ORIGINAL'', ''PRIMARY'', ''MPR'']'
+      SequenceName: ''
+      PulseSequenceName: ''
+      SequenceVariant: ''
+      ScanningSequence: ''
+      EchoPulseSequence: ''
+      MRAcquisitionType: ''
+      SliceThickness: '1'
+      FlipAngle: ''
+      EchoNumbers: ''
+      EchoTime: ''
+      EffectiveEchoTime: ''
+      RepetitionTime: ''
+      InPlanePhaseEncodingDirection: ''
+    bids:
+      task: null
+      acq: ''
+      ce: null
+      rec: null
+      run: <<>>
+      echo: null
+      part:
+      - ''
+      - mag
+      - phase
+      - real
+      - imag
+      - 0
+      chunk: null
+      suffix: T1w
+    meta: {}
+    events: {}
+  - provenance: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003\Series0002_SAG
+      T1 SE\Image (0001).dcm
+    properties:
+      filepath: null
+      filename: null
+      filesize: null
+      nrfiles: null
+    attributes:
+      Modality: MR
+      ProtocolName: HEAD EC/2
+      SeriesDescription: SAG T1 SE
+      ImageType: '[''ORIGINAL'', ''PRIMARY'', ''OTHER'']'
+      SequenceName: ''
+      PulseSequenceName: ''
+      SequenceVariant: NONE
+      ScanningSequence: SE
+      EchoPulseSequence: ''
+      MRAcquisitionType: 2D
+      SliceThickness: '6'
+      FlipAngle: '90'
+      EchoNumbers: '1'
+      EchoTime: '12'
+      EffectiveEchoTime: ''
+      RepetitionTime: '500'
+      InPlanePhaseEncodingDirection: ROW
+    bids:
+      task: null
+      acq: ''
+      ce: null
+      rec: null
+      run: <<>>
+      echo: '1'
+      part:
+      - ''
+      - mag
+      - phase
+      - real
+      - imag
+      - 0
+      chunk: null
+      suffix: T1w
+    meta: {}
+    events: {}
+  - provenance: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004\Series601015_AX
+      T2\Image (0001).dcm
+    properties:
+      filepath: ''
+      filename: ''
+      filesize: ''
+      nrfiles: null
+    attributes:
+      Modality: MR
+      ProtocolName: ''
+      SeriesDescription: AX T2
+      ImageType: '[''ORIGINAL'', ''PRIMARY'', ''MPR'']'
+      SequenceName: ''
+      PulseSequenceName: ''
+      SequenceVariant: ''
+      ScanningSequence: ''
+      EchoPulseSequence: ''
+      MRAcquisitionType: ''
+      SliceThickness: '4'
+      FlipAngle: ''
+      EchoNumbers: ''
+      EchoTime: ''
+      EffectiveEchoTime: ''
+      RepetitionTime: ''
+      InPlanePhaseEncodingDirection: ''
+    bids:
+      task: null
+      acq: ''
+      ce: null
+      rec: null
+      run: <<>>
+      echo: null
+      part:
+      - ''
+      - mag
+      - phase
+      - real
+      - imag
+      - 0
+      chunk: null
+      suffix: T2w
+    meta: {}
+    events: {}
+  - provenance: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0005\Series1001015_T2
+      COR\Image (0001).dcm
+    properties:
+      filepath: ''
+      filename: ''
+      filesize: ''
+      nrfiles: null
+    attributes:
+      Modality: MR
+      ProtocolName: ''
+      SeriesDescription: T2 COR
+      ImageType: '[''ORIGINAL'', ''PRIMARY'', ''MPR'']'
+      SequenceName: ''
+      PulseSequenceName: ''
+      SequenceVariant: ''
+      ScanningSequence: ''
+      EchoPulseSequence: ''
+      MRAcquisitionType: ''
+      SliceThickness: '3.3'
+      FlipAngle: ''
+      EchoNumbers: ''
+      EchoTime: ''
+      EffectiveEchoTime: ''
+      RepetitionTime: ''
+      InPlanePhaseEncodingDirection: ''
+    bids:
+      task: null
+      acq: T2COR
+      ce: null
+      rec: null
+      run: <<>>
+      echo: null
+      part:
+      - ''
+      - mag
+      - phase
+      - real
+      - imag
+      - 0
+      chunk: null
+      suffix: T2w
+    meta: {}
+    events: {}
+  func: []
+  perf: []
+  dwi: []
+  fmap: []
+  pet: []
+  eeg: []
+  ieeg: []
+  extra_data: []
+  exclude: []
+Presentation:
+  participant:
+    participant_id:
+      value: <<filepath:/raw/sub-(.*?)/>>
+      meta:
+        Description: The unique participant identifier of the form sub-<label>, matching
+          a participant entity found in the dataset
+    session_id:
+      value: <<filepath:/raw/sub-.*?/ses-(.*?)/>>
+      meta:
+        Description: The session identifier of the form ses-<label>, matching a session
+          found in the dataset
+  beh: []
+  eeg: []
+  ieeg: []
+  meg: []
+  nirs: []
+  func: []
+  extra_data: []
+  exclude: []
+Psychopy:
+  participant:
+    participant_id:
+      value: <<filepath:/raw/sub-(.*?)/>>
+      meta:
+        Description: The unique participant identifier of the form sub-<label>, matching
+          a participant entity found in the dataset
+    session_id:
+      value: <<filepath:/raw/sub-.*?/ses-(.*?)/>>
+      meta:
+        Description: The session identifier of the form ses-<label>, matching a session
+          found in the dataset
+  beh: []
+  eeg: []
+  ieeg: []
+  meg: []
+  nirs: []
+  func: []
+  extra_data: []
+  exclude: []
+Logdata:
+  participant:
+    participant_id:
+      value: <<filepath:/raw/sub-(.*?)/>>
+      meta:
+        Description: The unique participant identifier of the form sub-<label>, matching
+          a participant entity found in the dataset
+    session_id:
+      value: <<filepath:/raw/sub-.*?/ses-(.*?)/>>
+      meta:
+        Description: The session identifier of the form ses-<label>, matching a session
+          found in the dataset
+  beh: []
+  eeg: []
+  ieeg: []
+  meg: []
+  nirs: []
+  func: []
+  extra_data: []
+  exclude: []
+PAR:
+  participant:
+    participant_id:
+      value: <<filepath:/raw/sub-(.*?)/>>
+      meta:
+        Description: The unique participant identifier of the form sub-<label>, matching
+          a participant entity found in the dataset
+    session_id:
+      value: <<filepath:/raw/sub-.*?/ses-(.*?)/>>
+      meta:
+        Description: The session identifier of the form ses-<label>, matching a session
+          found in the dataset
+  anat: []
+  func: []
+  perf: []
+  dwi: []
+  fmap: []
+  extra_data: []
+  exclude: []
+SPAR:
+  participant:
+    participant_id:
+      value: <<filepath:/raw/sub-(.*?)/>>
+      meta:
+        Description: The unique participant identifier of the form sub-<label>, matching
+          a participant entity found in the dataset
+    session_id:
+      value: <<filepath:/raw/sub-.*?/ses-(.*?)/>>
+      meta:
+        Description: The session identifier of the form ses-<label>, matching a session
+          found in the dataset
+  mrs: []
+  extra_data: []
+  exclude: []
+Twix:
+  participant:
+    participant_id:
+      value: <<filepath:/raw/sub-(.*?)/>>
+      meta:
+        Description: The unique participant identifier of the form sub-<label>, matching
+          a participant entity found in the dataset
+    session_id:
+      value: <<filepath:/raw/sub-.*?/ses-(.*?)/>>
+      meta:
+        Description: The session identifier of the form ses-<label>, matching a session
+          found in the dataset
+    age:
+      value: <<PatientAge>>
+      meta:
+        Description: Age of the participant
+        Units: year
+    sex:
+      value: <<PatientSex>>
+      meta:
+        Description: Sex of the participant
+        Levels:
+          M: male
+          F: female
+          O: other
+    height:
+      value: <<PatientSize>>
+      meta:
+        Description: Height of the participant
+        Units: meter
+    weight:
+      value: <<PatientWeight>>
+      meta:
+        Description: Weight of the participant
+        Units: kilogram
+  mrs: []
+  extra_data: []
+  exclude: []
+Pfile:
+  participant:
+    participant_id:
+      value: <<filepath:/raw/sub-(.*?)/>>
+      meta:
+        Description: The unique participant identifier of the form sub-<label>, matching
+          a participant entity found in the dataset
+    session_id:
+      value: <<filepath:/raw/sub-.*?/ses-(.*?)/>>
+      meta:
+        Description: The session identifier of the form ses-<label>, matching a session
+          found in the dataset
+    age:
+      value: <<rhr_rh_scan_date>>-<<rhe_dateofbirth>>
+      meta:
+        Description: Age of the participant
+        Units: year
+    sex:
+      value: <<rhe_patsex>>
+      meta:
+        Description: Sex of the participant
+        Levels:
+          M: male
+          F: female
+          O: other
+  mrs: []
+  extra_data: []
+  exclude: []
+Nibabel:
+  participant:
+    participant_id:
+      value: <<filepath:/raw/sub-(.*?)/>>
+      meta:
+        Description: The unique participant identifier of the form sub-<label>, matching
+          a participant entity found in the dataset
+    session_id:
+      value: <<filepath:/raw/sub-.*?/ses-(.*?)/>>
+      meta:
+        Description: The session identifier of the form ses-<label>, matching a session
+          found in the dataset
+  anat: []
+  func: []
+  perf: []
+  dwi: []
+  fmap: []
+  extra_data: []
+  exclude: []

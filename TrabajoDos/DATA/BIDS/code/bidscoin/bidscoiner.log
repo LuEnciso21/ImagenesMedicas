@@ -1,0 +1,264 @@
+2025-05-26 10:54:09 - INFO | 
+2025-05-26 10:54:09 - INFO | -------------- START BIDScoiner 4.6.1: BIDS 1.10.0 ------------
+2025-05-26 10:54:09 - INFO | >>> bidscoiner sourcefolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw bidsfolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS participant=['C:\\Users\\USUARIO\\OneDrive - Universidad de Antioquia\\2025-1\\Imagenes_Medicas\\TRABAJO2_PRUEBA\\DATA\\raw\\sub-00012'] force=False bidsmap=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmapper
+2025-05-26 10:54:09 - INFO | Creating dataset description file: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\dataset_description.json
+2025-05-26 10:54:09 - INFO | Creating a template README file (adjust it to your needs): C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\README
+2025-05-26 10:54:09 - INFO | No bidsmap file found: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmapper.yaml
+2025-05-26 10:54:09 - ERROR | No bidsmap file found in C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS. Please run the bidsmapper first and/or use the correct bidsfolder
+2025-05-26 10:55:19 - INFO | 
+2025-05-26 10:55:19 - INFO | -------------- START BIDScoiner 4.6.1: BIDS 1.10.0 ------------
+2025-05-26 10:55:19 - INFO | >>> bidscoiner sourcefolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw bidsfolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS participant=['C:\\Users\\USUARIO\\OneDrive - Universidad de Antioquia\\2025-1\\Imagenes_Medicas\\TRABAJO2_PRUEBA\\DATA\\raw\\sub-00012'] force=False bidsmap=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmap
+2025-05-26 10:55:19 - INFO | Reading: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmap.yaml
+2025-05-26 10:55:21 - INFO | Checking the bidsmap run-items:
+2025-05-26 10:55:21 - SUCCESS | All run-items in the bidsmap are valid
+2025-05-26 10:55:21 - VERBOSE | Writing ['extra_data/', 'sub-*_ct.*'] entries to C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\.bidsignore
+2025-05-26 10:55:21 - INFO | ------------------- Subject 1/1 -------------------
+2025-05-26 10:55:21 - ERROR | The 'C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-00012' subject folder does not exist
+2025-05-26 10:55:21 - INFO | -------------- FINISHED! ------------
+2025-05-26 10:55:21 - INFO | 
+2025-05-26 10:55:21 - INFO | The following BIDScoin errors and warnings were reported:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-05-26 10:55:21 - ERROR | The 'C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-00012' subject folder does not exist
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+2025-05-26 10:55:21 - INFO | For the complete log see: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidscoiner.log
+NB: That folder may contain privacy sensitive information, e.g. pathnames in logfiles and provenance data samples
+2025-05-26 10:59:39 - INFO | 
+2025-05-26 10:59:39 - INFO | -------------- START BIDScoiner 4.6.1: BIDS 1.10.0 ------------
+2025-05-26 10:59:39 - INFO | >>> bidscoiner sourcefolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw bidsfolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS participant=['00012'] force=False bidsmap=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmap
+2025-05-26 10:59:39 - INFO | Reading: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmap.yaml
+2025-05-26 10:59:41 - INFO | Checking the bidsmap run-items:
+2025-05-26 10:59:41 - SUCCESS | All run-items in the bidsmap are valid
+2025-05-26 10:59:41 - VERBOSE | Writing ['extra_data/', 'sub-*_ct.*'] entries to C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\.bidsignore
+2025-05-26 10:59:41 - INFO | ------------------- Subject 1/1 -------------------
+2025-05-26 10:59:41 - ERROR | The 'C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-00012' subject folder does not exist
+2025-05-26 10:59:41 - INFO | -------------- FINISHED! ------------
+2025-05-26 10:59:41 - INFO | 
+2025-05-26 10:59:41 - INFO | The following BIDScoin errors and warnings were reported:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-05-26 10:59:41 - ERROR | The 'C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-00012' subject folder does not exist
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+2025-05-26 10:59:41 - INFO | For the complete log see: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidscoiner.log
+NB: That folder may contain privacy sensitive information, e.g. pathnames in logfiles and provenance data samples
+2025-05-26 11:00:28 - INFO | 
+2025-05-26 11:00:28 - INFO | -------------- START BIDScoiner 4.6.1: BIDS 1.10.0 ------------
+2025-05-26 11:00:28 - INFO | >>> bidscoiner sourcefolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw bidsfolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS participant=['0001'] force=False bidsmap=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmap
+2025-05-26 11:00:28 - INFO | Reading: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmap.yaml
+2025-05-26 11:00:29 - INFO | Checking the bidsmap run-items:
+2025-05-26 11:00:29 - SUCCESS | All run-items in the bidsmap are valid
+2025-05-26 11:00:29 - VERBOSE | Writing ['extra_data/', 'sub-*_ct.*'] entries to C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\.bidsignore
+2025-05-26 11:00:29 - INFO | ------------------- Subject 1/1 -------------------
+2025-05-26 11:00:29 - INFO | >>> Coining dcm2niix2bids datasources in: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001
+2025-05-26 11:00:30 - INFO | --> Coining: [DICOM] C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_FLAIR_SAG_3D\Image (0001).dcm
+2025-05-26 11:00:32 - VERBOSE | Command:
+dcm2niix -b y -z y -i n -l n -f "sub-0001_FLAIR" -o "C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\sub-0001\anat" "C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_FLAIR_SAG_3D"
+2025-05-26 11:00:32 - ERROR | Failed to run:
+dcm2niix -b y -z y -i n -l n -f "sub-0001_FLAIR" -o "C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\sub-0001\anat" "C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_FLAIR_SAG_3D"
+Errorcode 1:
+
+"dcm2niix" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+2025-05-26 11:00:32 - INFO | --> Coining: [DICOM] C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_SAG_3D_T1_ACCELERATED\Image (0001).dcm
+2025-05-26 11:00:32 - VERBOSE | Command:
+dcm2niix -b y -z y -i n -l n -f "sub-0001_T1w" -o "C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\sub-0001\anat" "C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_SAG_3D_T1_ACCELERATED"
+2025-05-26 11:00:32 - ERROR | Failed to run:
+dcm2niix -b y -z y -i n -l n -f "sub-0001_T1w" -o "C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\sub-0001\anat" "C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_SAG_3D_T1_ACCELERATED"
+Errorcode 1:
+
+"dcm2niix" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+2025-05-26 11:00:32 - VERBOSE | Writing acquisition time data to: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\sub-0001\sub-0001_scans.tsv
+2025-05-26 11:00:33 - INFO | >>> No events2bids datasources found in 'C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001'
+2025-05-26 11:00:33 - INFO | -------------- FINISHED! ------------
+2025-05-26 11:00:33 - INFO | 
+2025-05-26 11:00:33 - INFO | The following BIDScoin errors and warnings were reported:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-05-26 11:00:32 - ERROR | Failed to run:
+dcm2niix -b y -z y -i n -l n -f "sub-0001_FLAIR" -o "C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\sub-0001\anat" "C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_FLAIR_SAG_3D"
+Errorcode 1:
+
+"dcm2niix" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+2025-05-26 11:00:32 - ERROR | Failed to run:
+dcm2niix -b y -z y -i n -l n -f "sub-0001_T1w" -o "C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\sub-0001\anat" "C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_SAG_3D_T1_ACCELERATED"
+Errorcode 1:
+
+"dcm2niix" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+2025-05-26 11:00:33 - INFO | For the complete log see: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidscoiner.log
+NB: That folder may contain privacy sensitive information, e.g. pathnames in logfiles and provenance data samples
+2025-05-26 11:09:11 - INFO | 
+2025-05-26 11:09:11 - INFO | -------------- START BIDScoiner 4.6.1: BIDS 1.10.0 ------------
+2025-05-26 11:09:11 - INFO | >>> bidscoiner sourcefolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw bidsfolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS participant=['0001'] force=False bidsmap=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmap
+2025-05-26 11:09:11 - INFO | Reading: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmap.yaml
+2025-05-26 11:09:13 - INFO | Checking the bidsmap run-items:
+2025-05-26 11:09:13 - SUCCESS | All run-items in the bidsmap are valid
+2025-05-26 11:09:13 - VERBOSE | Writing ['extra_data/', 'sub-*_ct.*'] entries to C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\.bidsignore
+2025-05-26 11:09:13 - INFO | ------------------- Subject 1/1 -------------------
+2025-05-26 11:09:13 - INFO | >>> Coining dcm2niix2bids datasources in: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001
+2025-05-26 11:09:13 - INFO | --> Coining: [DICOM] C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_FLAIR_SAG_3D\Image (0001).dcm
+2025-05-26 11:09:15 - VERBOSE | Command:
+dcm2niix -b y -z y -i n -l n -f "sub-0001_FLAIR" -o "C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\sub-0001\anat" "C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_FLAIR_SAG_3D"
+2025-05-26 11:09:24 - VERBOSE | Output:
+Compression will be faster with C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\dcm2niix_win\pigz.exe in the same folder as the executable
+Chris Rorden's dcm2niiX version v1.0.20241211  (JP2:OpenJPEG) (JP-LS:CharLS) MSC1942  (64-bit Windows)
+Found 211 DICOM file(s)
+Warning: Unable to determine manufacturer (0008,0070), so conversion is not tuned for vendor.
+Convert 211 DICOM as C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\sub-0001\anat\sub-0001_FLAIR (205x235x211x1)
+Conversion required 8.436000 seconds.
+
+2025-05-26 11:09:24 - INFO | --> Coining: [DICOM] C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_SAG_3D_T1_ACCELERATED\Image (0001).dcm
+2025-05-26 11:09:24 - VERBOSE | Command:
+dcm2niix -b y -z y -i n -l n -f "sub-0001_T1w" -o "C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\sub-0001\anat" "C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_SAG_3D_T1_ACCELERATED"
+2025-05-26 11:09:33 - VERBOSE | Output:
+Compression will be faster with C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\dcm2niix_win\pigz.exe in the same folder as the executable
+Chris Rorden's dcm2niiX version v1.0.20241211  (JP2:OpenJPEG) (JP-LS:CharLS) MSC1942  (64-bit Windows)
+Found 211 DICOM file(s)
+Warning: Unable to determine manufacturer (0008,0070), so conversion is not tuned for vendor.
+Convert 211 DICOM as C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\sub-0001\anat\sub-0001_T1w (205x235x211x1)
+Conversion required 8.860000 seconds.
+
+2025-05-26 11:09:33 - VERBOSE | Writing acquisition time data to: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\sub-0001\sub-0001_scans.tsv
+2025-05-26 11:09:33 - VERBOSE | Writing sub-0001 subject data to: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\participants.tsv
+2025-05-26 11:09:34 - INFO | >>> No events2bids datasources found in 'C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001'
+2025-05-26 11:09:34 - INFO | -------------- FINISHED! ------------
+2025-05-26 11:09:34 - INFO | 
+2025-05-26 11:09:34 - SUCCESS | No BIDScoin errors or warnings were reported
+2025-05-26 11:09:34 - INFO | 
+2025-05-26 11:09:34 - INFO | For the complete log see: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidscoiner.log
+NB: That folder may contain privacy sensitive information, e.g. pathnames in logfiles and provenance data samples
+2025-05-26 11:50:43 - INFO | 
+2025-05-26 11:50:43 - INFO | -------------- START BIDScoiner 4.6.1: BIDS 1.10.0 ------------
+2025-05-26 11:50:43 - INFO | >>> bidscoiner sourcefolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw bidsfolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS participant=['0002'] force=False bidsmap=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmap
+2025-05-26 11:50:43 - INFO | Reading: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmap.yaml
+2025-05-26 11:50:44 - INFO | Checking the bidsmap run-items:
+2025-05-26 11:50:44 - SUCCESS | All run-items in the bidsmap are valid
+2025-05-26 11:50:44 - VERBOSE | Writing ['extra_data/', 'sub-*_ct.*'] entries to C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\.bidsignore
+2025-05-26 11:50:44 - INFO | ------------------- Subject 1/1 -------------------
+2025-05-26 11:50:44 - INFO | >>> Coining dcm2niix2bids datasources in: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0002
+2025-05-26 11:50:44 - INFO | --> Coining: [DICOM] C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0002\Series0201_SAG_3D_T1_ACCELERATED\Image (0001).dcm
+2025-05-26 11:50:47 - VERBOSE | Command:
+dcm2niix -b y -z y -i n -l n -f "sub-0002_T1w" -o "C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\sub-0002\anat" "C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0002\Series0201_SAG_3D_T1_ACCELERATED"
+2025-05-26 11:50:56 - VERBOSE | Output:
+Compression will be faster with C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\dcm2niix_win\pigz.exe in the same folder as the executable
+Chris Rorden's dcm2niiX version v1.0.20241211  (JP2:OpenJPEG) (JP-LS:CharLS) MSC1942  (64-bit Windows)
+Found 211 DICOM file(s)
+Warning: Unable to determine manufacturer (0008,0070), so conversion is not tuned for vendor.
+Convert 211 DICOM as C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\sub-0002\anat\sub-0002_T1w (256x256x211x1)
+Conversion required 8.716000 seconds.
+
+2025-05-26 11:50:56 - INFO | --> Coining: [DICOM] C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0002\Series0301_FLAIR_SAG_3D\Image (0001).dcm
+2025-05-26 11:50:56 - VERBOSE | Command:
+dcm2niix -b y -z y -i n -l n -f "sub-0002_FLAIR" -o "C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\sub-0002\anat" "C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0002\Series0301_FLAIR_SAG_3D"
+2025-05-26 11:51:03 - VERBOSE | Output:
+Compression will be faster with C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\dcm2niix_win\pigz.exe in the same folder as the executable
+Chris Rorden's dcm2niiX version v1.0.20241211  (JP2:OpenJPEG) (JP-LS:CharLS) MSC1942  (64-bit Windows)
+Found 179 DICOM file(s)
+Warning: Unable to determine manufacturer (0008,0070), so conversion is not tuned for vendor.
+Convert 179 DICOM as C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\sub-0002\anat\sub-0002_FLAIR (256x256x179x1)
+Conversion required 7.200000 seconds.
+
+2025-05-26 11:51:03 - VERBOSE | Writing acquisition time data to: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\sub-0002\sub-0002_scans.tsv
+2025-05-26 11:51:03 - VERBOSE | Writing sub-0002 subject data to: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\participants.tsv
+2025-05-26 11:51:04 - INFO | >>> No events2bids datasources found in 'C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0002'
+2025-05-26 11:51:04 - INFO | -------------- FINISHED! ------------
+2025-05-26 11:51:04 - INFO | 
+2025-05-26 11:51:04 - SUCCESS | No BIDScoin errors or warnings were reported
+2025-05-26 11:51:04 - INFO | 
+2025-05-26 11:51:04 - INFO | For the complete log see: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidscoiner.log
+NB: That folder may contain privacy sensitive information, e.g. pathnames in logfiles and provenance data samples
+2025-05-26 11:53:43 - INFO | 
+2025-05-26 11:53:43 - INFO | -------------- START BIDScoiner 4.6.1: BIDS 1.10.0 ------------
+2025-05-26 11:53:44 - INFO | >>> bidscoiner sourcefolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw bidsfolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS participant=['0003'] force=False bidsmap=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmap
+2025-05-26 11:53:44 - INFO | Reading: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmap.yaml
+2025-05-26 11:53:46 - INFO | Checking the bidsmap run-items:
+2025-05-26 11:53:46 - SUCCESS | All run-items in the bidsmap are valid
+2025-05-26 11:53:46 - VERBOSE | Writing ['extra_data/', 'sub-*_ct.*'] entries to C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\.bidsignore
+2025-05-26 11:53:46 - INFO | ------------------- Subject 1/1 -------------------
+2025-05-26 11:53:46 - INFO | >>> Coining dcm2niix2bids datasources in: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003
+2025-05-26 11:53:46 - INFO | --> Coining: [DICOM] C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003\Series0002_SAG T1 SE\Image (0001).dcm
+2025-05-26 11:53:49 - VERBOSE | Command:
+dcm2niix -b y -z y -i n -l n -f "sub-0003_echo-1_T1w" -o "C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\sub-0003\anat" "C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003\Series0002_SAG T1 SE"
+2025-05-26 11:53:50 - VERBOSE | Output:
+Compression will be faster with C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\dcm2niix_win\pigz.exe in the same folder as the executable
+Chris Rorden's dcm2niiX version v1.0.20241211  (JP2:OpenJPEG) (JP-LS:CharLS) MSC1942  (64-bit Windows)
+Found 18 DICOM file(s)
+::autoBids:GE usedSeqName:'MEMP' seqName:'memp' internalSeqName:'MEMP' seriesDesc:'SAG T1 SE' scanSeq:'SE' stepDesc:'Spin Echo' bidsData:'' bidsSuffix:'_acq-MEMP_run-2'
+Convert 18 DICOM as C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\sub-0003\anat\sub-0003_echo-1_T1w (512x512x18x1)
+Conversion required 1.573000 seconds.
+
+2025-05-26 11:53:51 - VERBOSE | Writing acquisition time data to: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\sub-0003\sub-0003_scans.tsv
+2025-05-26 11:53:51 - VERBOSE | Writing sub-0003 subject data to: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\participants.tsv
+2025-05-26 11:53:51 - INFO | >>> No events2bids datasources found in 'C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003'
+2025-05-26 11:53:51 - INFO | -------------- FINISHED! ------------
+2025-05-26 11:53:51 - INFO | 
+2025-05-26 11:53:51 - SUCCESS | No BIDScoin errors or warnings were reported
+2025-05-26 11:53:51 - INFO | 
+2025-05-26 11:53:51 - INFO | For the complete log see: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidscoiner.log
+NB: That folder may contain privacy sensitive information, e.g. pathnames in logfiles and provenance data samples
+2025-05-26 11:54:14 - INFO | 
+2025-05-26 11:54:14 - INFO | -------------- START BIDScoiner 4.6.1: BIDS 1.10.0 ------------
+2025-05-26 11:54:14 - INFO | >>> bidscoiner sourcefolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw bidsfolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS participant=['0004'] force=False bidsmap=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmap
+2025-05-26 11:54:14 - INFO | Reading: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmap.yaml
+2025-05-26 11:54:15 - INFO | Checking the bidsmap run-items:
+2025-05-26 11:54:15 - SUCCESS | All run-items in the bidsmap are valid
+2025-05-26 11:54:15 - VERBOSE | Writing ['extra_data/', 'sub-*_ct.*'] entries to C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\.bidsignore
+2025-05-26 11:54:15 - INFO | ------------------- Subject 1/1 -------------------
+2025-05-26 11:54:15 - INFO | >>> Coining dcm2niix2bids datasources in: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004
+2025-05-26 11:54:15 - INFO | --> Coining: [DICOM] C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004\Series601015_AX T2\Image (0001).dcm
+2025-05-26 11:54:17 - VERBOSE | Command:
+dcm2niix -b y -z y -i n -l n -f "sub-0004_T2w" -o "C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\sub-0004\anat" "C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004\Series601015_AX T2"
+2025-05-26 11:54:20 - VERBOSE | Output:
+Compression will be faster with C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\dcm2niix_win\pigz.exe in the same folder as the executable
+Chris Rorden's dcm2niiX version v1.0.20241211  (JP2:OpenJPEG) (JP-LS:CharLS) MSC1942  (64-bit Windows)
+Found 35 DICOM file(s)
+Convert 35 DICOM as C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\sub-0004\anat\sub-0004_T2w (560x560x35x1)
+Conversion required 2.613000 seconds.
+
+2025-05-26 11:54:20 - VERBOSE | Writing acquisition time data to: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\sub-0004\sub-0004_scans.tsv
+2025-05-26 11:54:20 - VERBOSE | Writing sub-0004 subject data to: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\participants.tsv
+2025-05-26 11:54:20 - INFO | >>> No events2bids datasources found in 'C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004'
+2025-05-26 11:54:20 - INFO | -------------- FINISHED! ------------
+2025-05-26 11:54:20 - INFO | 
+2025-05-26 11:54:20 - SUCCESS | No BIDScoin errors or warnings were reported
+2025-05-26 11:54:20 - INFO | 
+2025-05-26 11:54:20 - INFO | For the complete log see: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidscoiner.log
+NB: That folder may contain privacy sensitive information, e.g. pathnames in logfiles and provenance data samples
+2025-05-26 11:54:38 - INFO | 
+2025-05-26 11:54:38 - INFO | -------------- START BIDScoiner 4.6.1: BIDS 1.10.0 ------------
+2025-05-26 11:54:38 - INFO | >>> bidscoiner sourcefolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw bidsfolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS participant=['0005'] force=False bidsmap=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmap
+2025-05-26 11:54:38 - INFO | Reading: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmap.yaml
+2025-05-26 11:54:39 - INFO | Checking the bidsmap run-items:
+2025-05-26 11:54:39 - SUCCESS | All run-items in the bidsmap are valid
+2025-05-26 11:54:39 - VERBOSE | Writing ['extra_data/', 'sub-*_ct.*'] entries to C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\.bidsignore
+2025-05-26 11:54:39 - INFO | ------------------- Subject 1/1 -------------------
+2025-05-26 11:54:40 - INFO | >>> Coining dcm2niix2bids datasources in: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0005
+2025-05-26 11:54:40 - INFO | --> Coining: [DICOM] C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0005\Series1001015_T2 COR\Image (0001).dcm
+2025-05-26 11:54:42 - VERBOSE | Command:
+dcm2niix -b y -z y -i n -l n -f "sub-0005_acq-T2COR_T2w" -o "C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\sub-0005\anat" "C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0005\Series1001015_T2 COR"
+2025-05-26 11:54:45 - VERBOSE | Output:
+Compression will be faster with C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\dcm2niix_win\pigz.exe in the same folder as the executable
+Chris Rorden's dcm2niiX version v1.0.20241211  (JP2:OpenJPEG) (JP-LS:CharLS) MSC1942  (64-bit Windows)
+Found 46 DICOM file(s)
+Convert 46 DICOM as C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\sub-0005\anat\sub-0005_acq-T2COR_T2w (400x400x46x1)
+Conversion required 2.932000 seconds.
+
+2025-05-26 11:54:45 - VERBOSE | Writing acquisition time data to: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\sub-0005\sub-0005_scans.tsv
+2025-05-26 11:54:45 - VERBOSE | Writing sub-0005 subject data to: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\participants.tsv
+2025-05-26 11:54:45 - INFO | >>> No events2bids datasources found in 'C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0005'
+2025-05-26 11:54:45 - INFO | -------------- FINISHED! ------------
+2025-05-26 11:54:45 - INFO | 
+2025-05-26 11:54:45 - SUCCESS | No BIDScoin errors or warnings were reported
+2025-05-26 11:54:45 - INFO | 
+2025-05-26 11:54:45 - INFO | For the complete log see: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidscoiner.log
+NB: That folder may contain privacy sensitive information, e.g. pathnames in logfiles and provenance data samples

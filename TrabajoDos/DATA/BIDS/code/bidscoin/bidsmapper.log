@@ -1,0 +1,368 @@
+2025-05-26 10:31:14 - INFO | 
+2025-05-26 10:31:14 - INFO | -------------- START BIDSmapper ------------
+2025-05-26 10:31:14 - INFO | >>> bidsmapper sourcefolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw bidsfolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS bidsmap=bidsmap.yaml template=C:\Users\USUARIO\.bidscoin\4.6.1\templates\bidsmap_dccn.yaml plugins=[] subprefix=None sesprefix=None store=False force=False
+2025-05-26 10:31:14 - INFO | No bidsmap file found: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmap.yaml
+2025-05-26 10:31:14 - INFO | Reading: C:\Users\USUARIO\.bidscoin\4.6.1\templates\bidsmap_dccn.yaml
+2025-05-26 10:31:17 - INFO | Checking the bidsmap run-items:
+2025-05-26 10:31:20 - VERBOSE | Could not validate every run-item in the bidsmap
+2025-05-26 10:31:20 - VERBOSE | Checking the template bidsmap datatypes:
+2025-05-26 10:31:21 - SUCCESS | All datatypes and options in the template bidsmap are valid
+2025-05-26 10:31:21 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001 (subject 1/1)
+2025-05-26 10:31:21 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001
+2025-05-26 10:31:21 - INFO | Discovered sample: [DICOM] C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_FLAIR_SAG_3D\Image (0001).dcm
+2025-05-26 10:31:21 - INFO | Discovered sample: [DICOM] C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_SAG_3D_T1_ACCELERATED\Image (0001).dcm
+2025-05-26 10:31:21 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001
+2025-05-26 10:31:21 - INFO | Opening the bidseditor
+2025-05-26 10:36:42 - VERBOSE | User is editing C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_FLAIR_SAG_3D\Image (0001).dcm
+2025-05-26 10:37:36 - VERBOSE | User changes the BIDS data type from 'extra_data' to 'anat' for [DICOM/anat] C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_FLAIR_SAG_3D\Image (0001).dcm
+2025-05-26 10:41:09 - VERBOSE | User sets bids['acq'] from 'FLAIRSAG3D' to '' for [DICOM/anat] C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_FLAIR_SAG_3D\Image (0001).dcm
+2025-05-26 10:41:14 - VERBOSE | User changes the BIDS suffix from 'T1w' to 'FLAIR' for [DICOM/anat] C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_FLAIR_SAG_3D\Image (0001).dcm
+2025-05-26 10:41:19 - VERBOSE | User sets bids['acq'] from 'FLAIRSAG3D' to '' for [DICOM/anat] C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_FLAIR_SAG_3D\Image (0001).dcm
+2025-05-26 10:43:21 - VERBOSE | User approves the edit
+2025-05-26 10:43:28 - VERBOSE | User is editing C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_SAG_3D_T1_ACCELERATED\Image (0001).dcm
+2025-05-26 10:43:52 - VERBOSE | User changes the BIDS data type from 'extra_data' to 'anat' for [DICOM/anat] C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_SAG_3D_T1_ACCELERATED\Image (0001).dcm
+2025-05-26 10:43:58 - VERBOSE | User sets bids['acq'] from 'SAG3DT1ACCELERATED' to '' for [DICOM/anat] C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_SAG_3D_T1_ACCELERATED\Image (0001).dcm
+2025-05-26 10:44:03 - VERBOSE | User approves the edit
+2025-05-26 10:44:15 - VERBOSE | User is editing C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_SAG_3D_T1_ACCELERATED\Image (0001).dcm
+2025-05-26 10:44:24 - VERBOSE | User approves the edit
+2025-05-26 10:44:43 - INFO | Checking the bidsmap run-items:
+2025-05-26 10:44:44 - SUCCESS | All run-items in the bidsmap are valid
+2025-05-26 10:44:44 - INFO | Saving bidsmap in: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmap.yaml
+2025-05-26 10:45:01 - INFO |  
+2025-05-26 10:45:01 - INFO | Checking the bidsmap run-items:
+2025-05-26 10:45:01 - SUCCESS | All run-items in the bidsmap are valid
+2025-05-26 10:45:01 - INFO |  
+2025-05-26 10:45:01 - INFO | bids-validator 1.14.7.post0 test results (* = in .bidsignore):
+2025-05-26 10:45:01 - INFO | True:	anat/sub-DICOM_FLAIR.*
+2025-05-26 10:45:01 - INFO | True:	anat/sub-DICOM_T1w.*
+2025-05-26 10:45:01 - SUCCESS | All generated bidsnames are BIDS-valid
+2025-05-26 10:45:04 - INFO | -------------- FINISHED! -------------------
+2025-05-26 10:45:04 - INFO | 
+2025-05-26 10:45:04 - SUCCESS | No BIDScoin errors or warnings were reported
+2025-05-26 10:45:04 - INFO | 
+2025-05-26 10:45:04 - INFO | For the complete log see: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmapper.log
+NB: That folder may contain privacy sensitive information, e.g. pathnames in logfiles and provenance data samples
+2025-05-26 11:27:03 - INFO | 
+2025-05-26 11:27:03 - INFO | -------------- START BIDSmapper ------------
+2025-05-26 11:27:03 - INFO | >>> bidsmapper sourcefolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw bidsfolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS bidsmap=bidsmap.yaml template=C:\Users\USUARIO\.bidscoin\4.6.1\templates\bidsmap_dccn.yaml plugins=[] subprefix=None sesprefix=None store=False force=False
+2025-05-26 11:27:03 - INFO | Reading: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmap.yaml
+2025-05-26 11:27:03 - INFO | Checking the bidsmap run-items:
+2025-05-26 11:27:03 - SUCCESS | All run-items in the bidsmap are valid
+2025-05-26 11:27:03 - INFO | Reading: C:\Users\USUARIO\.bidscoin\4.6.1\templates\bidsmap_dccn.yaml
+2025-05-26 11:27:04 - INFO | Checking the bidsmap run-items:
+2025-05-26 11:27:05 - VERBOSE | Could not validate every run-item in the bidsmap
+2025-05-26 11:27:05 - VERBOSE | Checking the template bidsmap datatypes:
+2025-05-26 11:27:05 - SUCCESS | All datatypes and options in the template bidsmap are valid
+2025-05-26 11:27:05 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001 (subject 1/5)
+2025-05-26 11:27:05 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001
+2025-05-26 11:27:06 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001
+2025-05-26 11:27:06 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0002 (subject 2/5)
+2025-05-26 11:27:06 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0002
+2025-05-26 11:27:06 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0002
+2025-05-26 11:27:06 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003 (subject 3/5)
+2025-05-26 11:27:06 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003
+2025-05-26 11:27:06 - INFO | Discovered sample: [DICOM] C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003\Series0002_SAG T1 SE\Image (0001).dcm
+2025-05-26 11:27:06 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003
+2025-05-26 11:27:06 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004 (subject 4/5)
+2025-05-26 11:27:06 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004
+2025-05-26 11:27:06 - INFO | Discovered sample: [DICOM] C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004\Series601015_AX T2\Image (0001).dcm
+2025-05-26 11:27:06 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004
+2025-05-26 11:27:06 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0005 (subject 5/5)
+2025-05-26 11:27:06 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0005
+2025-05-26 11:27:06 - INFO | Discovered sample: [DICOM] C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0005\Series1001015_T2 COR\Image (0001).dcm
+2025-05-26 11:27:06 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0005
+2025-05-26 11:27:06 - INFO | Opening the bidseditor
+2025-05-26 11:27:54 - VERBOSE | User is editing C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003\Series0002_SAG T1 SE\Image (0001).dcm
+2025-05-26 11:28:06 - VERBOSE | User has canceled the edit
+2025-05-26 11:28:06 - VERBOSE | User is editing C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003\Series0002_SAG T1 SE\Image (0001).dcm
+2025-05-26 11:29:25 - VERBOSE | User changes the BIDS data type from 'extra_data' to 'anat' for [DICOM/anat] C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003\Series0002_SAG T1 SE\Image (0001).dcm
+2025-05-26 11:31:18 - VERBOSE | User sets bids['acq'] from 'SAGT1SE' to '' for [DICOM/anat] C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003\Series0002_SAG T1 SE\Image (0001).dcm
+2025-05-26 11:34:11 - VERBOSE | User approves the edit
+2025-05-26 11:34:19 - VERBOSE | User is editing C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_FLAIR_SAG_3D\Image (0001).dcm
+2025-05-26 11:34:22 - VERBOSE | User has canceled the edit
+2025-05-26 11:34:24 - VERBOSE | User is editing C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004\Series601015_AX T2\Image (0001).dcm
+2025-05-26 11:34:26 - VERBOSE | User changes the BIDS data type from 'extra_data' to 'anat' for [DICOM/anat] C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004\Series601015_AX T2\Image (0001).dcm
+2025-05-26 11:36:30 - VERBOSE | User changes the BIDS suffix from 'T1w' to 'T2w' for [DICOM/anat] C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004\Series601015_AX T2\Image (0001).dcm
+2025-05-26 11:36:35 - VERBOSE | User sets bids['acq'] from 'AXT2' to '' for [DICOM/anat] C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004\Series601015_AX T2\Image (0001).dcm
+2025-05-26 11:36:40 - VERBOSE | User approves the edit
+2025-05-26 11:36:43 - VERBOSE | User is editing C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0005\Series1001015_T2 COR\Image (0001).dcm
+2025-05-26 11:38:19 - VERBOSE | User changes the BIDS data type from 'extra_data' to 'anat' for [DICOM/anat] C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0005\Series1001015_T2 COR\Image (0001).dcm
+2025-05-26 11:38:37 - VERBOSE | User changes the BIDS suffix from 'T1w' to 'T2w' for [DICOM/anat] C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0005\Series1001015_T2 COR\Image (0001).dcm
+2025-05-26 11:38:41 - VERBOSE | User approves the edit
+2025-05-26 11:38:51 - INFO | Checking the bidsmap run-items:
+2025-05-26 11:38:51 - SUCCESS | All run-items in the bidsmap are valid
+2025-05-26 11:38:51 - INFO | Saving bidsmap in: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmap.yaml
+2025-05-26 11:39:51 - INFO | -------------- FINISHED! -------------------
+2025-05-26 11:39:51 - INFO | 
+2025-05-26 11:39:51 - SUCCESS | No BIDScoin errors or warnings were reported
+2025-05-26 11:39:51 - INFO | 
+2025-05-26 11:39:51 - INFO | For the complete log see: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmapper.log
+NB: That folder may contain privacy sensitive information, e.g. pathnames in logfiles and provenance data samples
+2025-05-26 11:40:20 - INFO | 
+2025-05-26 11:40:20 - INFO | -------------- START BIDSmapper ------------
+2025-05-26 11:40:20 - INFO | >>> bidsmapper sourcefolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw bidsfolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS bidsmap=bidsmap.yaml template=C:\Users\USUARIO\.bidscoin\4.6.1\templates\bidsmap_dccn.yaml plugins=[] subprefix=None sesprefix=None store=False force=False
+2025-05-26 11:40:20 - INFO | Reading: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmap.yaml
+2025-05-26 11:40:21 - INFO | Checking the bidsmap run-items:
+2025-05-26 11:40:21 - SUCCESS | All run-items in the bidsmap are valid
+2025-05-26 11:40:21 - INFO | Reading: C:\Users\USUARIO\.bidscoin\4.6.1\templates\bidsmap_dccn.yaml
+2025-05-26 11:40:21 - INFO | Checking the bidsmap run-items:
+2025-05-26 11:40:22 - VERBOSE | Could not validate every run-item in the bidsmap
+2025-05-26 11:40:22 - VERBOSE | Checking the template bidsmap datatypes:
+2025-05-26 11:40:23 - SUCCESS | All datatypes and options in the template bidsmap are valid
+2025-05-26 11:40:23 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001 (subject 1/5)
+2025-05-26 11:40:23 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001
+2025-05-26 11:40:23 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001
+2025-05-26 11:40:23 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0002 (subject 2/5)
+2025-05-26 11:40:23 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0002
+2025-05-26 11:40:23 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0002
+2025-05-26 11:40:23 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003 (subject 3/5)
+2025-05-26 11:40:23 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003
+2025-05-26 11:40:23 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003
+2025-05-26 11:40:23 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004 (subject 4/5)
+2025-05-26 11:40:23 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004
+2025-05-26 11:40:23 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004
+2025-05-26 11:40:23 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0005 (subject 5/5)
+2025-05-26 11:40:23 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0005
+2025-05-26 11:40:23 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0005
+2025-05-26 11:40:23 - INFO | Opening the bidseditor
+2025-05-26 11:41:47 - INFO | -------------- FINISHED! -------------------
+2025-05-26 11:41:47 - INFO | 
+2025-05-26 11:41:47 - SUCCESS | No BIDScoin errors or warnings were reported
+2025-05-26 11:41:47 - INFO | 
+2025-05-26 11:41:47 - INFO | For the complete log see: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmapper.log
+NB: That folder may contain privacy sensitive information, e.g. pathnames in logfiles and provenance data samples
+2025-05-26 11:42:25 - INFO | 
+2025-05-26 11:42:25 - INFO | -------------- START BIDSmapper ------------
+2025-05-26 11:42:25 - INFO | >>> bidsmapper sourcefolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0002 bidsfolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS bidsmap=bidsmap.yaml template=C:\Users\USUARIO\.bidscoin\4.6.1\templates\bidsmap_dccn.yaml plugins=[] subprefix=None sesprefix=None store=False force=False
+2025-05-26 11:42:25 - INFO | Reading: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmap.yaml
+2025-05-26 11:42:26 - INFO | Checking the bidsmap run-items:
+2025-05-26 11:42:26 - SUCCESS | All run-items in the bidsmap are valid
+2025-05-26 11:42:26 - INFO | Reading: C:\Users\USUARIO\.bidscoin\4.6.1\templates\bidsmap_dccn.yaml
+2025-05-26 11:42:26 - INFO | Checking the bidsmap run-items:
+2025-05-26 11:42:28 - VERBOSE | Could not validate every run-item in the bidsmap
+2025-05-26 11:42:28 - VERBOSE | Checking the template bidsmap datatypes:
+2025-05-26 11:42:28 - SUCCESS | All datatypes and options in the template bidsmap are valid
+2025-05-26 11:42:28 - WARNING | No subjects found in: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0002\sub-*
+2025-05-26 11:42:28 - INFO | Opening the bidseditor
+2025-05-26 11:43:10 - INFO | -------------- FINISHED! -------------------
+2025-05-26 11:43:10 - INFO | 
+2025-05-26 11:43:10 - INFO | The following BIDScoin errors and warnings were reported:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-05-26 11:42:28 - WARNING | No subjects found in: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0002\sub-*
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+2025-05-26 11:43:10 - INFO | For the complete log see: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmapper.log
+NB: That folder may contain privacy sensitive information, e.g. pathnames in logfiles and provenance data samples
+2025-05-26 11:43:24 - INFO | 
+2025-05-26 11:43:24 - INFO | -------------- START BIDSmapper ------------
+2025-05-26 11:43:24 - INFO | >>> bidsmapper sourcefolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw bidsfolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS bidsmap=bidsmap.yaml template=C:\Users\USUARIO\.bidscoin\4.6.1\templates\bidsmap_dccn.yaml plugins=[] subprefix=None sesprefix=None store=False force=False
+2025-05-26 11:43:24 - INFO | Reading: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmap.yaml
+2025-05-26 11:43:24 - INFO | Checking the bidsmap run-items:
+2025-05-26 11:43:24 - SUCCESS | All run-items in the bidsmap are valid
+2025-05-26 11:43:24 - INFO | Reading: C:\Users\USUARIO\.bidscoin\4.6.1\templates\bidsmap_dccn.yaml
+2025-05-26 11:43:25 - INFO | Checking the bidsmap run-items:
+2025-05-26 11:43:26 - VERBOSE | Could not validate every run-item in the bidsmap
+2025-05-26 11:43:26 - VERBOSE | Checking the template bidsmap datatypes:
+2025-05-26 11:43:26 - SUCCESS | All datatypes and options in the template bidsmap are valid
+2025-05-26 11:43:26 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001 (subject 1/5)
+2025-05-26 11:43:26 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001
+2025-05-26 11:43:26 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001
+2025-05-26 11:43:27 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0002 (subject 2/5)
+2025-05-26 11:43:27 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0002
+2025-05-26 11:43:27 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0002
+2025-05-26 11:43:27 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003 (subject 3/5)
+2025-05-26 11:43:27 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003
+2025-05-26 11:43:27 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003
+2025-05-26 11:43:27 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004 (subject 4/5)
+2025-05-26 11:43:27 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004
+2025-05-26 11:43:27 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004
+2025-05-26 11:43:27 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0005 (subject 5/5)
+2025-05-26 11:43:27 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0005
+2025-05-26 11:43:27 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0005
+2025-05-26 11:43:27 - INFO | Opening the bidseditor
+2025-05-26 11:43:32 - VERBOSE | User is editing C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003\Series0002_SAG T1 SE\Image (0001).dcm
+2025-05-26 11:43:42 - VERBOSE | User has canceled the edit
+2025-05-26 11:44:10 - INFO | -------------- FINISHED! -------------------
+2025-05-26 11:44:10 - INFO | 
+2025-05-26 11:44:10 - SUCCESS | No BIDScoin errors or warnings were reported
+2025-05-26 11:44:10 - INFO | 
+2025-05-26 11:44:10 - INFO | For the complete log see: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmapper.log
+NB: That folder may contain privacy sensitive information, e.g. pathnames in logfiles and provenance data samples
+2025-05-26 11:45:05 - INFO | 
+2025-05-26 11:45:05 - INFO | -------------- START BIDSmapper ------------
+2025-05-26 11:45:05 - INFO | >>> bidsmapper sourcefolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw bidsfolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS bidsmap=bidsmap.yaml template=C:\Users\USUARIO\.bidscoin\4.6.1\templates\bidsmap_dccn.yaml plugins=[] subprefix=None sesprefix=None store=False force=False
+2025-05-26 11:45:05 - INFO | Reading: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmap.yaml
+2025-05-26 11:45:06 - INFO | Checking the bidsmap run-items:
+2025-05-26 11:45:06 - SUCCESS | All run-items in the bidsmap are valid
+2025-05-26 11:45:06 - INFO | Reading: C:\Users\USUARIO\.bidscoin\4.6.1\templates\bidsmap_dccn.yaml
+2025-05-26 11:45:06 - INFO | Checking the bidsmap run-items:
+2025-05-26 11:45:08 - VERBOSE | Could not validate every run-item in the bidsmap
+2025-05-26 11:45:08 - VERBOSE | Checking the template bidsmap datatypes:
+2025-05-26 11:45:08 - SUCCESS | All datatypes and options in the template bidsmap are valid
+2025-05-26 11:45:08 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001 (subject 1/5)
+2025-05-26 11:45:08 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001
+2025-05-26 11:45:08 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001
+2025-05-26 11:45:08 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0002 (subject 2/5)
+2025-05-26 11:45:08 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0002
+2025-05-26 11:45:09 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0002
+2025-05-26 11:45:09 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003 (subject 3/5)
+2025-05-26 11:45:09 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003
+2025-05-26 11:45:09 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003
+2025-05-26 11:45:09 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004 (subject 4/5)
+2025-05-26 11:45:09 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004
+2025-05-26 11:45:09 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004
+2025-05-26 11:45:09 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0005 (subject 5/5)
+2025-05-26 11:45:09 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0005
+2025-05-26 11:45:09 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0005
+2025-05-26 11:45:09 - INFO | Opening the bidseditor
+2025-05-26 11:45:22 - INFO | -------------- FINISHED! -------------------
+2025-05-26 11:45:22 - INFO | 
+2025-05-26 11:45:22 - SUCCESS | No BIDScoin errors or warnings were reported
+2025-05-26 11:45:22 - INFO | 
+2025-05-26 11:45:22 - INFO | For the complete log see: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmapper.log
+NB: That folder may contain privacy sensitive information, e.g. pathnames in logfiles and provenance data samples
+2025-05-26 11:46:01 - INFO | 
+2025-05-26 11:46:01 - INFO | -------------- START BIDSmapper ------------
+2025-05-26 11:46:01 - INFO | >>> bidsmapper sourcefolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001 bidsfolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS bidsmap=bidsmap.yaml template=C:\Users\USUARIO\.bidscoin\4.6.1\templates\bidsmap_dccn.yaml plugins=[] subprefix=None sesprefix=None store=False force=False
+2025-05-26 11:46:01 - INFO | Reading: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmap.yaml
+2025-05-26 11:46:02 - INFO | Checking the bidsmap run-items:
+2025-05-26 11:46:02 - SUCCESS | All run-items in the bidsmap are valid
+2025-05-26 11:46:02 - INFO | Reading: C:\Users\USUARIO\.bidscoin\4.6.1\templates\bidsmap_dccn.yaml
+2025-05-26 11:46:02 - INFO | Checking the bidsmap run-items:
+2025-05-26 11:46:04 - VERBOSE | Could not validate every run-item in the bidsmap
+2025-05-26 11:46:04 - VERBOSE | Checking the template bidsmap datatypes:
+2025-05-26 11:46:04 - SUCCESS | All datatypes and options in the template bidsmap are valid
+2025-05-26 11:46:04 - WARNING | No subjects found in: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\sub-*
+2025-05-26 11:46:04 - INFO | Opening the bidseditor
+2025-05-26 11:46:12 - INFO | -------------- FINISHED! -------------------
+2025-05-26 11:46:12 - INFO | 
+2025-05-26 11:46:12 - INFO | The following BIDScoin errors and warnings were reported:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-05-26 11:46:04 - WARNING | No subjects found in: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\sub-*
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+2025-05-26 11:46:12 - INFO | For the complete log see: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmapper.log
+NB: That folder may contain privacy sensitive information, e.g. pathnames in logfiles and provenance data samples
+2025-05-26 11:47:42 - INFO | 
+2025-05-26 11:47:42 - INFO | -------------- START BIDSmapper ------------
+2025-05-26 11:47:42 - INFO | >>> bidsmapper sourcefolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001 bidsfolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS bidsmap=bidsmap.yaml template=C:\Users\USUARIO\.bidscoin\4.6.1\templates\bidsmap_dccn.yaml plugins=[] subprefix=None sesprefix=None store=False force=False
+2025-05-26 11:47:42 - INFO | Reading: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmap.yaml
+2025-05-26 11:47:43 - INFO | Checking the bidsmap run-items:
+2025-05-26 11:47:43 - SUCCESS | All run-items in the bidsmap are valid
+2025-05-26 11:47:43 - INFO | Reading: C:\Users\USUARIO\.bidscoin\4.6.1\templates\bidsmap_dccn.yaml
+2025-05-26 11:47:44 - INFO | Checking the bidsmap run-items:
+2025-05-26 11:47:46 - VERBOSE | Could not validate every run-item in the bidsmap
+2025-05-26 11:47:46 - VERBOSE | Checking the template bidsmap datatypes:
+2025-05-26 11:47:46 - SUCCESS | All datatypes and options in the template bidsmap are valid
+2025-05-26 11:47:46 - WARNING | No subjects found in: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\sub-*
+2025-05-26 11:47:47 - INFO | Opening the bidseditor
+2025-05-26 11:47:52 - INFO | -------------- FINISHED! -------------------
+2025-05-26 11:47:52 - INFO | 
+2025-05-26 11:47:52 - INFO | The following BIDScoin errors and warnings were reported:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-05-26 11:47:46 - WARNING | No subjects found in: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\sub-*
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+2025-05-26 11:47:52 - INFO | For the complete log see: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmapper.log
+NB: That folder may contain privacy sensitive information, e.g. pathnames in logfiles and provenance data samples
+2025-05-26 11:48:03 - INFO | 
+2025-05-26 11:48:03 - INFO | -------------- START BIDSmapper ------------
+2025-05-26 11:48:03 - INFO | >>> bidsmapper sourcefolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw bidsfolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS bidsmap=bidsmap.yaml template=C:\Users\USUARIO\.bidscoin\4.6.1\templates\bidsmap_dccn.yaml plugins=[] subprefix=None sesprefix=None store=False force=False
+2025-05-26 11:48:03 - INFO | Reading: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmap.yaml
+2025-05-26 11:48:04 - INFO | Checking the bidsmap run-items:
+2025-05-26 11:48:04 - SUCCESS | All run-items in the bidsmap are valid
+2025-05-26 11:48:04 - INFO | Reading: C:\Users\USUARIO\.bidscoin\4.6.1\templates\bidsmap_dccn.yaml
+2025-05-26 11:48:05 - INFO | Checking the bidsmap run-items:
+2025-05-26 11:48:08 - VERBOSE | Could not validate every run-item in the bidsmap
+2025-05-26 11:48:08 - VERBOSE | Checking the template bidsmap datatypes:
+2025-05-26 11:48:08 - SUCCESS | All datatypes and options in the template bidsmap are valid
+2025-05-26 11:48:08 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001 (subject 1/5)
+2025-05-26 11:48:08 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001
+2025-05-26 11:48:08 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001
+2025-05-26 11:48:08 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0002 (subject 2/5)
+2025-05-26 11:48:08 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0002
+2025-05-26 11:48:08 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0002
+2025-05-26 11:48:08 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003 (subject 3/5)
+2025-05-26 11:48:08 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003
+2025-05-26 11:48:08 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003
+2025-05-26 11:48:08 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004 (subject 4/5)
+2025-05-26 11:48:08 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004
+2025-05-26 11:48:09 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004
+2025-05-26 11:48:09 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0005 (subject 5/5)
+2025-05-26 11:48:09 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0005
+2025-05-26 11:48:09 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0005
+2025-05-26 11:48:09 - INFO | Opening the bidseditor
+2025-05-26 11:48:19 - VERBOSE | User is editing C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_SAG_3D_T1_ACCELERATED\Image (0001).dcm
+2025-05-26 11:48:30 - VERBOSE | User has canceled the edit
+2025-05-26 11:48:52 - INFO | -------------- FINISHED! -------------------
+2025-05-26 11:48:52 - INFO | 
+2025-05-26 11:48:52 - SUCCESS | No BIDScoin errors or warnings were reported
+2025-05-26 11:48:52 - INFO | 
+2025-05-26 11:48:52 - INFO | For the complete log see: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmapper.log
+NB: That folder may contain privacy sensitive information, e.g. pathnames in logfiles and provenance data samples
+2025-05-26 14:42:41 - INFO | 
+2025-05-26 14:42:41 - INFO | -------------- START BIDSmapper ------------
+2025-05-26 14:42:41 - INFO | >>> bidsmapper sourcefolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw bidsfolder=C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS bidsmap=bidsmap.yaml template=C:\Users\USUARIO\.bidscoin\4.6.1\templates\bidsmap_dccn.yaml plugins=[] subprefix=None sesprefix=None store=False force=False
+2025-05-26 14:42:41 - INFO | Reading: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmap.yaml
+2025-05-26 14:42:43 - INFO | Checking the bidsmap run-items:
+2025-05-26 14:42:43 - SUCCESS | All run-items in the bidsmap are valid
+2025-05-26 14:42:43 - INFO | Reading: C:\Users\USUARIO\.bidscoin\4.6.1\templates\bidsmap_dccn.yaml
+2025-05-26 14:42:43 - INFO | Checking the bidsmap run-items:
+2025-05-26 14:42:46 - VERBOSE | Could not validate every run-item in the bidsmap
+2025-05-26 14:42:46 - VERBOSE | Checking the template bidsmap datatypes:
+2025-05-26 14:42:46 - SUCCESS | All datatypes and options in the template bidsmap are valid
+2025-05-26 14:42:46 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001 (subject 1/5)
+2025-05-26 14:42:46 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001
+2025-05-26 14:42:46 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001
+2025-05-26 14:42:46 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0002 (subject 2/5)
+2025-05-26 14:42:46 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0002
+2025-05-26 14:42:46 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0002
+2025-05-26 14:42:46 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003 (subject 3/5)
+2025-05-26 14:42:46 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003
+2025-05-26 14:42:46 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003
+2025-05-26 14:42:46 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004 (subject 4/5)
+2025-05-26 14:42:46 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004
+2025-05-26 14:42:46 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004
+2025-05-26 14:42:46 - INFO | Mapping: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0005 (subject 5/5)
+2025-05-26 14:42:46 - VERBOSE | Executing plugin: dcm2niix2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0005
+2025-05-26 14:42:47 - VERBOSE | Executing plugin: events2bids -> C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0005
+2025-05-26 14:42:47 - INFO | Opening the bidseditor
+2025-05-26 14:42:59 - VERBOSE | User is editing C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_FLAIR_SAG_3D\Image (0001).dcm
+2025-05-26 14:43:47 - VERBOSE | User approves the edit
+2025-05-26 14:43:55 - VERBOSE | User is editing C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_FLAIR_SAG_3D\Image (0001).dcm
+2025-05-26 14:43:57 - VERBOSE | User has canceled the edit
+2025-05-26 14:43:58 - VERBOSE | User is editing C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_SAG_3D_T1_ACCELERATED\Image (0001).dcm
+2025-05-26 14:44:06 - VERBOSE | User has canceled the edit
+2025-05-26 14:44:42 - VERBOSE | User is editing C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003\Series0002_SAG T1 SE\Image (0001).dcm
+2025-05-26 14:46:44 - VERBOSE | User has canceled the edit
+2025-05-26 14:46:46 - VERBOSE | User is editing C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004\Series601015_AX T2\Image (0001).dcm
+2025-05-26 14:47:16 - VERBOSE | User approves the edit
+2025-05-26 14:47:18 - VERBOSE | User is editing C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0005\Series1001015_T2 COR\Image (0001).dcm
+2025-05-26 14:47:39 - VERBOSE | User has canceled the edit
+2025-05-26 14:58:16 - VERBOSE | User is editing C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_FLAIR_SAG_3D\Image (0001).dcm
+2025-05-26 14:58:39 - VERBOSE | User has canceled the edit
+2025-05-26 14:58:40 - VERBOSE | User is editing C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003\Series0002_SAG T1 SE\Image (0001).dcm
+2025-05-26 14:58:54 - VERBOSE | User has canceled the edit
+2025-05-26 14:58:55 - VERBOSE | User is editing C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0004\Series601015_AX T2\Image (0001).dcm
+2025-05-26 14:58:58 - VERBOSE | User has canceled the edit
+2025-05-26 14:59:00 - VERBOSE | User is editing C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0005\Series1001015_T2 COR\Image (0001).dcm
+2025-05-26 14:59:01 - VERBOSE | User has canceled the edit
+2025-05-26 14:59:03 - VERBOSE | User is editing C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_SAG_3D_T1_ACCELERATED\Image (0001).dcm
+2025-05-26 14:59:06 - VERBOSE | User has canceled the edit
+2025-05-26 14:59:07 - VERBOSE | User is editing C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_FLAIR_SAG_3D\Image (0001).dcm
+2025-05-26 14:59:13 - VERBOSE | User has canceled the edit
+2025-05-26 14:59:14 - VERBOSE | User is editing C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003\Series0002_SAG T1 SE\Image (0001).dcm
+2025-05-26 15:00:19 - VERBOSE | User has canceled the edit
+2025-05-26 15:00:19 - VERBOSE | User is editing C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0001\Series0001_FLAIR_SAG_3D\Image (0001).dcm
+2025-05-26 15:00:37 - VERBOSE | User has canceled the edit
+2025-05-26 15:00:37 - VERBOSE | User is editing C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\raw\sub-0003\Series0002_SAG T1 SE\Image (0001).dcm
+2025-05-26 17:40:44 - VERBOSE | User has canceled the edit
+2025-05-26 17:40:44 - INFO | -------------- FINISHED! -------------------
+2025-05-26 17:40:44 - INFO | 
+2025-05-26 17:40:44 - SUCCESS | No BIDScoin errors or warnings were reported
+2025-05-26 17:40:44 - INFO | 
+2025-05-26 17:40:44 - INFO | For the complete log see: C:\Users\USUARIO\OneDrive - Universidad de Antioquia\2025-1\Imagenes_Medicas\TRABAJO2_PRUEBA\DATA\BIDS\code\bidscoin\bidsmapper.log
+NB: That folder may contain privacy sensitive information, e.g. pathnames in logfiles and provenance data samples

@@ -1,0 +1,27 @@
+{
+    "Modality": "MR",
+    "Manufacturer": "Philips",
+    "PatientPosition": "HFS",
+    "StudyDescription": "AX T2",
+    "SeriesDescription": "AX T2",
+    "ProtocolName": "AX T2",
+    "ImageType": [
+        "ORIGINAL",
+        "PRIMARY",
+        "MPR"
+    ],
+    "SeriesNumber": 601015,
+    "SliceThickness": 4,
+    "SpacingBetweenSlices": 1,
+    "ReconMatrixPE": 560,
+    "ImageOrientationPatientDICOM": [
+        0.999927,
+        -0.00249381,
+        -0.011855,
+        0.00539294,
+        0.967903,
+        0.251267
+    ],
+    "ConversionSoftware": "dcm2niix",
+    "ConversionSoftwareVersion": "v1.0.20241211"
+}

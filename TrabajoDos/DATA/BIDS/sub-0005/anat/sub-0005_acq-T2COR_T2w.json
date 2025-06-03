@@ -1,0 +1,27 @@
+{
+    "Modality": "MR",
+    "Manufacturer": "Philips",
+    "PatientPosition": "HFS",
+    "StudyDescription": "T2 COR",
+    "SeriesDescription": "T2 COR",
+    "ProtocolName": "T2 COR",
+    "ImageType": [
+        "ORIGINAL",
+        "PRIMARY",
+        "MPR"
+    ],
+    "SeriesNumber": 1001015,
+    "SliceThickness": 3.3,
+    "SpacingBetweenSlices": 1,
+    "ReconMatrixPE": 400,
+    "ImageOrientationPatientDICOM": [
+        0.996907,
+        0.0632038,
+        -0.0467164,
+        -0.0495664,
+        0.0443024,
+        -0.997788
+    ],
+    "ConversionSoftware": "dcm2niix",
+    "ConversionSoftwareVersion": "v1.0.20241211"
+}
